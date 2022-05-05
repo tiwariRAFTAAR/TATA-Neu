@@ -1,0 +1,224 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logoneu {
+  height: 70px;
+  width: 70px;
+}
+
+/* NAVIGATION */
+
+nav{
+    background: #021428;
+    height: 120px;
+    width: 1503px;
+}
+
+a{
+  line-height: 4;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-left: 20px;
+  position: relative;
+  /* top: -13; */
+  left: 40px;
+}
+
+a:hover{
+  color: yellow;
+}
+
+a.active{
+  color: lime;
+}
+
+.logoneu{
+  margin-top: 14px;
+  margin-left: 402px;
+  margin-right: 20px;
+}
+
+/* SLIDESHOW */
+
+.slidep{
+  border-bottom: 10px solid #021428;
+  width: 1903px;
+}
+
+.slidep{
+  height: 580px;
+  width: 1500px;
+
+
+}
+
+/* PARAGRAPH */
+section#paragraph{
+  margin: 100px;
+}
+
+/* SERVICES PAGE */
+h1.page_title{
+  margin-left: 400px;
+  color: #021428;
+}
+
+img.servicepic{
+  margin-left: 401px;
+  width: 67%;
+}
+
+section.service-paragraph{
+  margin: 100px;
+  margin-left: 400px;
+}
+
+/* PORTFOLIO PAGE */
+img#project1-img, img#project2-img, img#project3-img{
+  margin-left: 401px;
+  width:700px;
+  height:300px;
+}
+
+div#project1{
+  margin-left: 1120px;
+  position: absolute;
+  top: 175px;
+  left: 0px;
+  width: 400px;
+}
+
+a#project1-button{
+  width: 100px;
+  height: 60px;
+  background: #c51a1a;
+  padding: 20px;
+  position: relative;
+  top: 4px;
+  left: -21px;
+}
+
+div#project2{
+  margin-left: 1120px;
+  position: absolute;
+  top: 565px;
+  left: 0px;
+  width: 400px;
+}
+a#project2-button{
+  width: 100px;
+  height: 60px;
+  background: #c51a1a;
+  padding: 20px;
+  position: relative;
+  top: 4px;
+  left: -21px;
+}
+section#project2{
+  margin-top: 50px;
+}
+
+div#project3{
+  margin-left: 1120px;
+  position: absolute;
+  top: 1015px;
+  left: 0px;
+  width: 400px;
+}
+a#project3-button{
+  width: 100px;
+  height: 60px;
+  background: #c51a1a;
+  padding: 20px;
+  position: relative;
+  top: 4px;
+  left: -21px;
+}
+
+section#project3{
+  margin-top: 110px;
+}
+
+/* ABOUT PAGE */
+img#about-img{
+  margin-left: 350px;
+  width: 750px;
+  height: 550px;
+}
+
+div#about{
+  margin-left: 1120px;
+  position: absolute;
+  top: 175px;
+  left: 0px;
+  width: 400px;
+}
+/* CONTACT PAGE */
+
+/* button#sub-button{
+  background-color: rgb(47, 160, 240);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+} */
+
+form{
+  margin-left: 402px;
+}
+
+.form-control{
+  display: block;
+  width: 40%;
+  padding: .375rem .75rem;
+  font-size: .1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
+
+.btn-primary{
+  color: white;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover{
+  color: white;
+  background-color: blue;
+  border-color: blue;
+}
+
+.btn{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* FOOTER */
+footer{
+  margin-top: 200px;
+  background: #021428;
+  width: 100%;
+  height: 215px;
+  color: white;
+}
+
+#footer_text{
+  line-height: 13;
+  text-align: center;
+}
